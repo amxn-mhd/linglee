@@ -1,0 +1,565 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon
+{
+    color: black;
+    font-size: large;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-weight: 600;
+}
+.leftbox
+{
+    position: absolute;
+    top: -20px;
+    left: -25px;
+    background-color: rgb(255, 255, 255);
+    width: 24%;
+    height: 650px;
+}
+.leftbtn
+{
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255);
+    border-style: hidden; 
+    font-size: small;  
+    color: rgb(138, 128, 128);    
+    font-weight: 600;
+    width: 110px; 
+    text-align: left;
+    margin-bottom: 2%;
+    padding: 7px;
+}
+.leftbtn:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.imggg
+{
+    position: absolute;
+    top: 430px;
+    left: 30px;
+}
+.upgradebtn
+{
+    width: 130px;
+    height: 36px;
+    background-color: rgb(127, 162, 228);
+    border-radius: 7px;
+    border-style: hidden;
+    margin-left: 23%;
+    color: white;
+    position: absolute;
+    top: 578px;
+    left: -30px;
+}
+.centerb
+{
+    height: 720px;
+    width: 900px;
+    position: absolute;
+    background-color: rgb(242, 244, 247);
+    top: 0px;
+    left:166px
+}
+.Dashboard
+{
+    position: fixed;
+    top: 4px;
+    left: 200px;
+    font-size: medium;
+    font-weight: 550;
+}
+.srchbtn
+{
+    background-color: rgb(212, 221, 235) ;
+    height: 20px;
+    width: 25px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(133, 133, 124);
+    position: fixed;
+    top: 20px;
+    right: 300px;
+}
+.time
+{
+    font-size: medium;
+    position: fixed;
+    top: 8px;
+    left: 870px;
+    color: rgb(138, 128, 128);
+}
+.largeb1
+{
+    position: absolute;
+    top: 535px;
+    left: 14px;
+    height: 80px;
+    width: 270px;
+    background-color: rgb(100, 61, 209);
+    border-radius: 10px;
+}
+.smallb1
+{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: rgb(126, 93, 214);
+    margin-left: 20px;
+    margin-top: -45px;
+}
+.BsnsEng
+{
+    font-size: small;
+    margin-left: 80px;
+    margin-top: 10px;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+.Grmr
+{
+    font-size: medium;
+    position: relative;
+    left: 80px;
+    color: white;
+    font-weight: 700;
+}   
+.B2
+{
+    position: absolute;
+    top: 17px;
+    left: 34px;
+    color: white;
+    font-size: medium;
+}
+.arrow
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: relative;
+    top: -28px;
+    left: 220px;
+    font-weight: 600;
+}
+.largeb2
+{
+    position: absolute;
+    top: 535px;
+    left: 312px;
+    height: 80px;
+    width: 270px;
+    background-color: rgb(160, 140, 214);
+    border-radius: 10px;
+}
+.largeb3
+{
+    position: absolute;
+    top: 535px;
+    left: 610px;
+    height: 80px;
+    width: 270px;
+    background-color: rgb(243, 144, 144);
+    border-radius: 10px;
+}
+.smallb2
+{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: rgb(177, 165, 209);
+    margin-left: 20px;
+    margin-top: -45px;
+}
+.smallb3
+{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: rgb(233, 168, 168);
+    margin-left: 20px;
+    margin-top: -45px;
+}
+.upbox
+{
+    height: 130px;
+    width: 870px;
+    position: absolute;
+    border-radius: 10px;
+    top: 50px;
+    left: 14px;
+    background-color: rgb(241, 216, 216);    
+}
+.wlcm
+{
+    color: rgb(218, 110, 110);
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+.ad
+{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} 
+.leftprc
+{
+    height: 300px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 195px;
+    left: 14px;
+    border-radius: 10px;
+}   
+.ltstrslt
+{
+    font-size: medium;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    left: 15px;
+    margin-bottom: 15px;
+}
+.more
+{
+    position: absolute;
+    top: 3px;
+    left: 245px;
+    font-size: small;
+}
+.arrow2
+{
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    font-size: 30px;
+}
+.unit
+{
+    font-size: 12px;
+    margin-left: 16px;
+    margin-bottom: -4px;
+}
+.partition
+{
+    background-color: rgb(233, 221, 221);
+    height: 1px;
+    width: 270px;
+    margin-left: 25px;
+}
+.rightprc
+{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 532px;
+    position: absolute;
+    top: 195px;
+    left: 350px;
+    border-radius: 10px;
+}
+.lstwk
+{
+    position: absolute;
+    top: 3px;
+    left: 430px;
+    font-size: small;
+}
+.arrow1 
+{
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    top: 17px;
+    left: 500px;
+}
+.down 
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.yc
+{
+    position: absolute;
+    top: 495px;
+    font-size: small;
+    font-weight: bold;
+}
+.blwmr
+{
+    position: absolute;
+    top: 495px;
+    left: 573px;
+}
+.lgt
+{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    font-weight: 500;
+}
+.rightb
+{
+    height: 610px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    position : absolute;
+    left: 1066px;
+}
+.glyphicon
+{
+    position: absolute;
+    left: 250px;
+    margin-top: 17px;
+}
+.imgg
+{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+.namee
+{
+    position: absolute;
+    top: 180px;
+    left: 85px;
+    font-weight: bold;
+}
+.stdnt
+{
+    position: absolute;
+    top: 210px;
+    left: 125px;
+    color: grey;
+}
+.btnrghtb2
+{
+    position: absolute;
+    top: 270px;
+    left: 25px;
+    height: 35px;
+    width: 35px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: rgb(236, 233, 235);
+    font-weight: 500;
+}
+.btnrghtc1
+{
+    position: absolute;
+    top: 340px;
+    left: 25px;
+    height: 35px;
+    width: 35px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: rgb(236, 233, 235);
+    font-weight: 500;
+}
+.Sub1
+{
+    position: absolute;
+    top: 270px;
+    left: 70px;
+    font-weight: bold;
+}
+.Sub2
+{
+    position: absolute;
+    top: 340px;
+    font-weight: bold;
+    left: 70px;
+}
+.Subsub1
+{
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    font-size: 12px;
+}
+.Subsub2
+{
+    position: absolute;
+    top: 360px;
+    font-size: 12px;
+    left: 70px;
+}
+.rmnd
+{
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 25px;
+}
+.fa1
+{
+    position: absolute;
+    top: 403px;
+    left: 250px;
+    color: grey;
+    
+}
+.fa2
+{
+    padding: 5px;
+    color: rgb(240, 214, 209);
+    background-color: rgb(223, 102, 102);
+    border-radius: 80%;
+    border: hidden;
+}
+.btn1
+{
+    height: 35px;
+    width: 32px;
+    border-radius: 10px;
+    background-color: rgb(240, 214, 209);
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+.rmnd1
+{
+    position: absolute;
+    top: 445px;
+    left: 70px;
+}
+.date1
+{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    color: grey;
+}
+.btn2
+{
+    height: 35px;
+    width: 32px;
+    border-radius: 10px;
+    background-color: rgb(188, 198, 231);
+    position: absolute;
+    top: 505px;
+    left: 30px;
+}
+.fa3
+{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(181, 180, 238);
+    border-radius: 10px;
+    border: hidden;
+}
+.rmnd2
+{
+    position: absolute;
+    top: 500px;
+    left: 70px;
+}
+.rmnd3
+{
+    position: absolute;
+    top: 555px;
+    left: 70px;
+}
+.btn3
+{
+    height: 35px;
+    width: 32px;
+    border-radius: 10px;
+    background-color: rgb(188, 198, 231);
+    position: absolute;
+    top: 560px;
+    left: 30px;
+}
+.base  
+{
+    height: 7px;
+    width: 100px;
+    background-color: rgb(223, 211, 211);
+    position: absolute;
+    left: 160px;
+    border-radius: 5px;
+}
+.prgrs
+{
+    height: 7px;
+    width: 100px;
+    background-color: rgb(62, 65, 73);
+    position: absolute;
+    border-radius: 5px;
+}
+.pgrgsnmb
+{
+    position: absolute;
+    left: 270px;
+}
+.base1
+{
+    width: 5px;
+    height: 150px;
+    background-color: rgb(233, 223, 223);
+    position: absolute;
+    top: 80px;
+}
+.days
+{
+    position: absolute;
+    top: 50px;
+}
+.pgr
+{
+    width: 5px;
+    background-color: rgb(73, 63, 63);
+    position: absolute;
+}
+.dot
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+}
+.prgrssub
+{
+    position: absolute;
+    top: 265px;
+    color: grey;
+}
+.logoo
+{
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    border-radius: 5px;
+}
+.L
+{
+    position: absolute;
+    left: 8px;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+}
+.imgggg
+{
+    position: absolute;
+    top: 95px;
+    width: 70px;
+    left: 18px;
+    height: 340px;
+}
